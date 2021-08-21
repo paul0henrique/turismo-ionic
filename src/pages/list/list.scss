@@ -1,0 +1,21 @@
+page-list {
+
+    .title{
+        font-family: "Poppins", sans-serif;
+    }
+
+    button{
+        background-color: black !important;
+        color: white !important;
+    }
+
+    .contato{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    ion-item ion-label{
+        font-size: 14px !important;
+    }
+}
