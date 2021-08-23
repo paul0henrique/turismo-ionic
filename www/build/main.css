@@ -25739,7 +25739,7 @@ page-about .content-title {
 }
 
 page-about ion-card-content, page-about p {
-  text-align: justify;
+  text-align: center;
   font-family: "Poppins", sans-serif;
   display: inline-block;
   color: white !important;
@@ -25775,7 +25775,7 @@ page-home .local-title {
 }
 
 page-home ion-card-content, page-home p {
-  text-align: justify;
+  text-align: center;
   font-family: "Poppins", sans-serif;
   display: inline-block;
   color: white !important;
