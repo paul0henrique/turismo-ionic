@@ -1,0 +1,45 @@
+page-about {
+
+.video{
+    width: 100%;
+    }
+.titulo{
+    color: white;
+    font-family: 'Poppins',sans-serif;
+}
+
+
+.container-content{
+    background-color: black !important;
+    border-radius: 25px;
+    margin-top: 25px;
+    box-shadow: 10px 5px 5px #808080;
+}
+.container-content:hover{
+    transform: scale(1.010);
+}
+
+.content-title{
+    font-size: 2em;
+    margin-bottom: 0.5em;
+    color: white !important;
+    text-align: center;
+}
+
+ion-card-content, p{
+    text-align: justify;
+    font-family: "Poppins", sans-serif;
+    display: inline-block;
+    color: white !important;
+}
+
+.img-content{
+    margin-top: 20px;
+    border-radius: 25px;
+}
+
+button{
+    color: white !important;
+}
+
+}

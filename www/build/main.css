@@ -25709,12 +25709,62 @@ ion-navbar.toolbar {
   color: white;
 }
 
+page-about .video {
+  width: 100%;
+}
+
+page-about .titulo {
+  color: white;
+  font-family: 'Poppins',sans-serif;
+}
+
+page-about .container-content {
+  background-color: black !important;
+  border-radius: 25px;
+  margin-top: 25px;
+  -webkit-box-shadow: 10px 5px 5px #808080;
+  box-shadow: 10px 5px 5px #808080;
+}
+
+page-about .container-content:hover {
+  -webkit-transform: scale(1.01);
+  transform: scale(1.01);
+}
+
+page-about .content-title {
+  font-size: 2em;
+  margin-bottom: 0.5em;
+  color: white !important;
+  text-align: center;
+}
+
+page-about ion-card-content, page-about p {
+  text-align: justify;
+  font-family: "Poppins", sans-serif;
+  display: inline-block;
+  color: white !important;
+}
+
+page-about .img-content {
+  margin-top: 20px;
+  border-radius: 25px;
+}
+
+page-about button {
+  color: white !important;
+}
+
 page-home .container-local {
   background-color: black !important;
   border-radius: 25px;
   margin-top: 25px;
-  -webkit-box-shadow: 10px 5px 5px #999;
-  box-shadow: 10px 5px 5px #999;
+  -webkit-box-shadow: 10px 5px 5px #808080;
+  box-shadow: 10px 5px 5px #808080;
+}
+
+page-home .container-local:hover {
+  -webkit-transform: scale(1.01);
+  transform: scale(1.01);
 }
 
 page-home .local-title {
@@ -25762,6 +25812,11 @@ page-list .title {
 page-list button {
   background-color: black !important;
   color: white !important;
+}
+
+page-list button:hover {
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
 }
 
 page-list .contato {

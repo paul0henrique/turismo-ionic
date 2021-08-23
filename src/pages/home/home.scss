@@ -4,7 +4,10 @@ page-home {
         background-color: black !important;
         border-radius: 25px;
         margin-top: 25px;
-        box-shadow: 10px 5px 5px #999;
+        box-shadow: 10px 5px 5px #808080;
+    }
+    .container-local:hover{
+        transform: scale(1.010);
     }
     
     .local-title{
